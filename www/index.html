@@ -12,14 +12,14 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body style="background-color: rgb(230,230,230);">
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="form-group">
-                    <div class="mt-3 d-grid gap-2">
-                        <h1>Achar produto por código de barras:</h1>
-                        <button class="btn btn-dark text-white" id="scan">Ler código</button>
+                    <div class="mt-3 gap-2 d-flex flex-column justify-content-center align-items-center" style="height: 30vh;">
+                        <h1 class="text-dark" style="font-size: 5vh;">Leitor de barras:</h1>
+                        <button class="btn btn-success text-white fw-bold rounded-pill border-dark border-5" id="ler" style="height: 60%; width: 100%; font-size: 5vh;">Ler código</button>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
         <br><br>
         <div class="row">
             <div class="col">
-                <div id="informacoes">
+                <div id="info">
                 </div>
             </div>
         </div>
